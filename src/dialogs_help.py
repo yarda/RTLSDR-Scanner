@@ -33,8 +33,8 @@ import numpy
 import serial
 import wx
 
-from misc import get_version_timestamp
-from utils_wx import load_bitmap
+from .misc import get_version_timestamp
+from .utils_wx import load_bitmap
 
 
 class DialogSysInfo(wx.Dialog):

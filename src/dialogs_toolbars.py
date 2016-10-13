@@ -26,7 +26,7 @@
 import wx
 from wx.lib.masked.numctrl import NumCtrl
 
-from constants import WINFUNC
+from .constants import WINFUNC
 
 
 class DialogSmoothPrefs(wx.Dialog):

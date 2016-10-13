@@ -33,15 +33,15 @@ from wx import grid
 import wx
 from wx.lib import masked
 
-from constants import F_MIN, F_MAX, Cal, WINFUNC, PlotFunc
-from events import Event
-from file import File, open_plot
-from misc import format_precision, format_time
-from panels import PanelGraphCompare, PanelLine
-from plot_line import Plotter
-from spectrum import Extent, smooth_spectrum
-from utils_wx import close_modeless
-from widgets import SatLevel
+from .constants import F_MIN, F_MAX, Cal, WINFUNC, PlotFunc
+from .events import Event
+from .file import File, open_plot
+from .misc import format_precision, format_time
+from .panels import PanelGraphCompare, PanelLine
+from .plot_line import Plotter
+from .spectrum import Extent, smooth_spectrum
+from .utils_wx import close_modeless
+from .widgets import SatLevel
 
 
 class DialogCompare(wx.Dialog):

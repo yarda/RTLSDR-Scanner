@@ -37,12 +37,12 @@ from matplotlib.text import Text
 from matplotlib.ticker import ScalarFormatter, AutoMinorLocator
 import numpy
 
-from constants import Markers, PlotFunc
-from events import EventThread, Event, post_event
-from misc import format_time, format_precision
-from spectrum import split_spectrum, Measure, smooth_spectrum, Extent, \
+from .constants import Markers, PlotFunc
+from .events import EventThread, Event, post_event
+from .misc import format_time, format_precision
+from .spectrum import split_spectrum, Measure, smooth_spectrum, Extent, \
     diff_spectrum, get_peaks
-from utils_mpl import utc_to_mpl
+from .utils_mpl import utc_to_mpl
 
 
 class Spectrogram(object):

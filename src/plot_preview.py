@@ -27,7 +27,7 @@ import sys
 
 import wx
 
-from events import post_event, EventThread, Event
+from .events import post_event, EventThread, Event
 
 
 vvPresent = False

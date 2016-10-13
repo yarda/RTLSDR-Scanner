@@ -37,34 +37,34 @@ import webbrowser
 import wx
 from wx.lib.masked.numctrl import NumCtrl
 
-from constants import F_MIN, F_MAX, MODE, NFFT, DISPLAY, Warn, \
+from .constants import F_MIN, F_MAX, MODE, NFFT, DISPLAY, Warn, \
     Cal, Mode, APP_NAME, LOCATION_PORT
-from devices import get_devices_rtl
-from dialogs_devices import DialogDevicesRTL, DialogDevicesGPS
-from dialogs_file import DialogImageSize, DialogExportSeq, DialogExportGeo, \
+from .devices import get_devices_rtl
+from .dialogs_devices import DialogDevicesRTL, DialogDevicesGPS
+from .dialogs_file import DialogImageSize, DialogExportSeq, DialogExportGeo, \
     DialogProperties, DialogSaveWarn, DialogRestore
-from dialogs_help import DialogSysInfo, DialogAbout
-from dialogs_prefs import DialogPrefs, DialogAdvPrefs, DialogFormatting
-from dialogs_scan import DialogScanDelay
-from dialogs_tools import DialogCompare, DialogAutoCal, DialogSats, DialogSmooth, \
+from .dialogs_help import DialogSysInfo, DialogAbout
+from .dialogs_prefs import DialogPrefs, DialogAdvPrefs, DialogFormatting
+from .dialogs_scan import DialogScanDelay
+from .dialogs_tools import DialogCompare, DialogAutoCal, DialogSats, DialogSmooth, \
     DialogLog
-from events import EVENT_THREAD, Event, EventThread, post_event, Log, EventTimer
-from file import save_plot, export_plot, open_plot, ScanInfo, export_image, \
+from .events import EVENT_THREAD, Event, EventThread, post_event, Log, EventTimer
+from .file import save_plot, export_plot, open_plot, ScanInfo, export_image, \
     export_map, extension_add, File, run_file, export_gpx, Backups
-from location import ThreadLocation, LocationServer
-from menus import MenuMain, PopMenuMain
-from misc import RemoteControl, calc_samples, get_dwells, calc_real_dwell, \
+from .location import ThreadLocation, LocationServer
+from .menus import MenuMain, PopMenuMain
+from .misc import RemoteControl, calc_samples, get_dwells, calc_real_dwell, \
     get_version_timestamp, get_version_timestamp_repo, format_iso_time, limit
-from panels import PanelGraph
-from printer import PrintOut
-from scan import ThreadScan, update_spectrum, ThreadProcess
-from settings import Settings
-from spectrum import count_points, Extent
-from toolbars import Statusbar, NavigationToolbar
-from utils_google import create_gearth
-from utils_mpl import add_colours
-from utils_wx import load_icon
-from widgets import MultiButton
+from .panels import PanelGraph
+from .printer import PrintOut
+from .scan import ThreadScan, update_spectrum, ThreadProcess
+from .settings import Settings
+from .spectrum import count_points, Extent
+from .toolbars import Statusbar, NavigationToolbar
+from .utils_google import create_gearth
+from .utils_mpl import add_colours
+from .utils_wx import load_icon
+from .widgets import MultiButton
 
 from wx.lib.agw import aui
 

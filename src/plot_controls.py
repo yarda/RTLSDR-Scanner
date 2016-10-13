@@ -26,10 +26,10 @@
 import matplotlib
 from matplotlib.patches import Rectangle
 
-from plot_3d import Plotter3d
-from plot_preview import PlotterPreview
-from plot_status import PlotterStatus
-from plot_time import PlotterTime
+from .plot_3d import Plotter3d
+from .plot_preview import PlotterPreview
+from .plot_status import PlotterStatus
+from .plot_time import PlotterTime
 
 
 class MouseZoom():

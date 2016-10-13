@@ -38,12 +38,12 @@ from matplotlib.text import Text
 from matplotlib.ticker import ScalarFormatter, AutoMinorLocator
 import numpy
 
-from constants import Markers, PlotFunc
-from events import EventThread, Event, post_event
-from misc import format_precision
-from spectrum import Measure, Extent, smooth_spectrum, \
+from .constants import Markers, PlotFunc
+from .events import EventThread, Event, post_event
+from .misc import format_precision
+from .spectrum import Measure, Extent, smooth_spectrum, \
     diff_spectrum, delta_spectrum, get_peaks
-from utils_mpl import get_colours
+from .utils_mpl import get_colours
 
 
 class Plotter(object):

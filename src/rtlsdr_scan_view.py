@@ -29,9 +29,9 @@ from os.path import os
 import sys
 import wx
 
-from file import File, open_plot
-from settings import Settings
-from spectrum import sort_spectrum
+from .file import File, open_plot
+from .settings import Settings
+from .spectrum import sort_spectrum
 
 if not hasattr(sys, 'frozen'):
     import visvis as vv

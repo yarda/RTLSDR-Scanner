@@ -24,7 +24,7 @@
 #
 import wx
 
-from constants import Mode
+from .constants import Mode
 
 
 class MenuMain(object):

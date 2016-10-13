@@ -31,8 +31,8 @@ import time
 import matplotlib
 import rtlsdr
 
-from constants import SAMPLE_RATE, BANDWIDTH, WINFUNC
-from events import EventThread, Event, post_event
+from .constants import SAMPLE_RATE, BANDWIDTH, WINFUNC
+from .events import EventThread, Event, post_event
 import rtltcp
 from collections import OrderedDict
 

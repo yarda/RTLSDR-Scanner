@@ -35,12 +35,12 @@ from matplotlib.gridspec import GridSpec
 from matplotlib.ticker import ScalarFormatter, AutoMinorLocator
 from mpl_toolkits.mplot3d import Axes3D  # @UnresolvedImport @UnusedImport
 
-from constants import PlotFunc
-from events import post_event, EventThread, Event
-from misc import format_time, format_precision
-from spectrum import create_mesh, smooth_spectrum, Extent, diff_spectrum, \
+from .constants import PlotFunc
+from .events import post_event, EventThread, Event
+from .misc import format_time, format_precision
+from .spectrum import create_mesh, smooth_spectrum, Extent, diff_spectrum, \
     get_peaks
-from utils_mpl import utc_to_mpl
+from .utils_mpl import utc_to_mpl
 
 
 class Plotter3d(object):

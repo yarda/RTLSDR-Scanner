@@ -40,20 +40,20 @@ from matplotlib.lines import Line2D
 from matplotlib.ticker import AutoMinorLocator, ScalarFormatter
 import wx
 
-from constants import Display
-from misc import format_precision
-from plot_3d import Plotter3d
-from plot_controls import MouseZoom, MouseSelect
-from plot_line import Plotter
-from plot_preview import PlotterPreview
-from plot_spect import Spectrogram
-from plot_status import PlotterStatus
-from plot_time import PlotterTime
-from spectrum import split_spectrum_sort, Measure, reduce_points
-from toolbars import NavigationToolbar, NavigationToolbarCompare
-from utils_mpl import find_artists
-from utils_wx import close_modeless
-from widgets import GridToolTips, CheckBoxCellRenderer
+from .constants import Display
+from .misc import format_precision
+from .plot_3d import Plotter3d
+from .plot_controls import MouseZoom, MouseSelect
+from .plot_line import Plotter
+from .plot_preview import PlotterPreview
+from .plot_spect import Spectrogram
+from .plot_status import PlotterStatus
+from .plot_time import PlotterTime
+from .spectrum import split_spectrum_sort, Measure, reduce_points
+from .toolbars import NavigationToolbar, NavigationToolbarCompare
+from .utils_mpl import find_artists
+from .utils_wx import close_modeless
+from .widgets import GridToolTips, CheckBoxCellRenderer
 import wx.grid as wxGrid
 
 

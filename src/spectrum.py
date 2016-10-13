@@ -29,9 +29,9 @@ from operator import itemgetter, mul
 from matplotlib.dates import seconds
 import numpy
 
-from constants import WINFUNC
-from misc import db_to_level, level_to_db
-from utils_mpl import utc_to_mpl
+from .constants import WINFUNC
+from .misc import db_to_level, level_to_db
+from .utils_mpl import utc_to_mpl
 
 
 class Extent(object):

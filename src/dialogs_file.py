@@ -39,16 +39,16 @@ import wx
 from wx.grid import GridCellDateTimeRenderer
 from wx.lib.masked.numctrl import NumCtrl, EVT_NUM
 
-from constants import SAMPLE_RATE, TUNER
-from events import Event
-from file import export_image, File
-from misc import format_time
-from panels import PanelColourBar
-from plot_line import Plotter
-from spectrum import Extent, count_points
-from utils_mpl import get_colours, create_heatmap
-from utils_wx import ValidatorCoord
-from widgets import TickCellRenderer
+from .constants import SAMPLE_RATE, TUNER
+from .events import Event
+from .file import export_image, File
+from .misc import format_time
+from .panels import PanelColourBar
+from .plot_line import Plotter
+from .spectrum import Extent, count_points
+from .utils_mpl import get_colours, create_heatmap
+from .utils_wx import ValidatorCoord
+from .widgets import TickCellRenderer
 
 
 class DialogProperties(wx.Dialog):

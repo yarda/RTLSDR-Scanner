@@ -27,7 +27,7 @@ import os
 
 import wx
 
-from misc import get_resdir, get_script_dir
+from .misc import get_resdir, get_script_dir
 
 
 class ValidatorCoord(wx.PyValidator):
